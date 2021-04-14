@@ -14,7 +14,7 @@ This extension is available as [gnome-shell-extension-improvedosk-git](https://a
 ## FAQ
 
 ### Some symbols are missing...
-The keyboard uses unicode characters, try installing ttf-symbola from AUR
+The keyboard uses unicode characters, try installing `ttf-symbola` from AUR.
 
 ### Do i need to enable the OSK in Gnome accessibility settings?
 By default the keyboard will popup on touch input events. Enabling the keyboard in the accessibility settings just allows the OSK to popup on non touch input.
