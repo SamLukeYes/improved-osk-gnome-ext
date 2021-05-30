@@ -3,7 +3,7 @@
 Makes Gnome's onscreen keyboard more useable.
 
 Changes in this fork:
-- ~~Removed preferences because it doesn't work in GNOME 40~~ Fixed!
+- ~~Removed preferences because it doesn't work in GNOME 40~~ Fixed! (thanks [@nick-shmyrev](https://github.com/nick-shmyrev))
 - Tweaks on default settings
 
 ## Installation
