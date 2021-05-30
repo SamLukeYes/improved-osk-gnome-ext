@@ -3,8 +3,7 @@
 Makes Gnome's onscreen keyboard more useable.
 
 Changes in this fork:
-- Removed preferences because it doesn't work in GNOME 40
-    - *Pull requests are welcomed to bring it back*
+- ~~Removed preferences because it doesn't work in GNOME 40~~ Fixed!
 - Tweaks on default settings
 
 ## Installation
@@ -18,6 +17,3 @@ The keyboard uses unicode characters, try installing `ttf-symbola` from AUR.
 
 ### Do i need to enable the OSK in Gnome accessibility settings?
 By default the keyboard will popup on touch input events when physical mouse isn't available. Enabling the keyboard in the accessibility settings just allows the OSK to popup on non touch input and/or when physical mouse is available.
-
-### Where to edit the settings without extension preferences?
-Open `dconf-editor` and go to `/org/gnome/shell/extensions/improvedosk/`

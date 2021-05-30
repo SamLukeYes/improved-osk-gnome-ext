@@ -9,8 +9,13 @@ const Me = ExtensionUtils.getCurrentExtension();
 function init() {}
 
 function buildPrefsWidget() {
+  var GSETTINGS_SCHEMA_DIR = '/usr/share/glib-2.0/schemas'
+  if (Me.dir.get_child("schemas").get_path().startsWith("/home")) {
+    var GSETTINGS_SCHEMA_DIR = `${Config.PACKAGE_DATADIR}/schemas`;
+  }
+
   let gschema = Gio.SettingsSchemaSource.new_from_directory(
-    Me.dir.get_child("schemas").get_path(),
+    GSETTINGS_SCHEMA_DIR,
     Gio.SettingsSchemaSource.get_default(),
     false
   );
