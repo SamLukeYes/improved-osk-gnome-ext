@@ -5,6 +5,7 @@ Makes Gnome's onscreen keyboard more useable.
 Changes in this fork:
 - ~~Removed preferences because it doesn't work in GNOME 40~~ Fixed!
 - Tweaks on default settings
+- Only support system-wide installation
 
 ## Installation
 
