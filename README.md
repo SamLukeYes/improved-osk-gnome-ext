@@ -8,7 +8,7 @@ Changes in this fork:
 
 ## Installation
 
-This extension is available as [gnome-shell-extension-improvedosk-git](https://aur.archlinux.org/packages/gnome-shell-extension-improvedosk-git/) on AUR. Only this installation method is supported at this moment. Maybe I'll test and figure out a more convenient way to install this extension later.
+This extension is available as [gnome-shell-extension-improvedosk-git](https://aur.archlinux.org/packages/gnome-shell-extension-improvedosk-git/) on AUR. Only this installation method is supported at this moment. Maybe I'll test and figure out a more convenient way to install this extension on other distros later.
 
 ## FAQ
 
